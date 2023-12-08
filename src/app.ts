@@ -19,6 +19,6 @@ app.use((error: Error, req: Request, res: Response, next: NextFunction) => {
   res.status(500).send(error.message);
 });
 
-app.use("/username/", usernameRouter);
+app.use("/api", usernameRouter);
 
 export default app;

@@ -3,6 +3,6 @@ import usernameController from "../controllers/usernameController";
 
 const router = express.Router();
 
-router.get("/", usernameController.getUsername);
+router.get("/username/", usernameController.getUsername);
 
 export default router;
